@@ -7,6 +7,9 @@ def add(x, y):
 def subtract(x, y):
   return  x - y
 
+def divide(x,y):
+  return x. / y
+
 class CalcTest(unittest.TestCase):
 
   def test_add_simple(self):
@@ -14,6 +17,9 @@ class CalcTest(unittest.TestCase):
 
   def test_subtract_simple(self):
     self.assertEquals(subtract(3, 4), -2)
+
+  def test_divide_simple(self):
+	self.assertEquals(divide(6,3), 2)
 
 if __name__ == "__main__":
   unittest.main()
