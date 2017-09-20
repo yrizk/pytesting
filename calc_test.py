@@ -13,7 +13,7 @@ class CalcTest(unittest.TestCase):
     self.assertEqual(add(5,4), 9)
 
   def test_subtract_simple(self):
-    self.assertEquals(subtract(3, 4), -2)
+    self.assertEquals(subtract(3, 4), -1)
 
 if __name__ == "__main__":
   unittest.main()
